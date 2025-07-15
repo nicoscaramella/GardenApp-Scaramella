@@ -48,7 +48,7 @@ class PlantasViewModel(
             it.nombre.uppercase().contains(searchText.uppercase())
         }
         uiState = PlantasEstado.Resultado(emptyList(),searchText)
-//        uiState = PlantasEstado.Resultado(searchResult,searchText)
+        uiState = PlantasEstado.Resultado(searchResult,searchText)
     }
 }
 
